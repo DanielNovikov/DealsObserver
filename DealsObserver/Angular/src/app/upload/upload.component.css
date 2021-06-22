@@ -1,0 +1,10 @@
+﻿upload {
+  display: block;
+  height: 600px;
+}
+
+#fileInput {
+  margin-top: 3px;
+  float: left;
+  width: 250px;
+}

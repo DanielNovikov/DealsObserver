@@ -1,0 +1,29 @@
+<div *ngIf="deals.length > 0; else dealsNotExist">
+  <p *ngIf="theMostPopularVehicle != null">The most popular vehicle <b>{{theMostPopularVehicle.name}}</b></p>
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Number</th>
+        <th scope="col">Customer</th>
+        <th scope="col">Dealership</th>
+        <th scope="col">Vehicle</th>
+        <th scope="col">Price</th>
+        <th scope="col">Date</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let deal of deals">
+        <th scope="row">{{deal.number}}</th>
+        <td>{{deal.customerName}}</td>
+        <td>{{deal.dealershipName}}</td>
+        <td>{{deal.vehicleName}}</td>
+        <td>{{deal.price}}</td>
+        <td>{{deal.date | date:'MM/dd/yyyy'}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<ng-template #dealsNotExist>
+  There are no deals yet
+</ng-template>

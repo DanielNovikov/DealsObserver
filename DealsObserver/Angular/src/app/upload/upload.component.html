@@ -1,0 +1,2 @@
+<input type="file" class="form-control-file" id="fileInput" (change)="handleFileInput($event.target.files)">
+<button class="btn btn-primary" (click)="uploadFile()" [disabled]="!fileExists()">Upload</button>

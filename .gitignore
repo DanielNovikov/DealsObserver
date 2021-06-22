@@ -1,0 +1,14 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/OrdersTask/obj
+/OrdersTask.data/bin/Debug/netcoreapp2.2
+/OrdersTask.data/obj/Debug/netcoreapp2.2
+/OrdersTask.data/obj
+/OrdersTask.service/bin/Debug/netcoreapp2.2
+/OrdersTask.service/obj/Debug/netcoreapp2.2
+/OrdersTask.service/obj
+/OrdersTask/AngularApp/node_modules
+/OrdersTask/bin/Debug/netcoreapp2.2

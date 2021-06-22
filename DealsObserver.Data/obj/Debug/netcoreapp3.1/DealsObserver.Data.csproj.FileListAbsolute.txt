@@ -1,0 +1,12 @@
+C:\Users\Danil.Novikov MoneyV\source\repos\SE_TestExercise\DealsObserver.Data\bin\Debug\netcoreapp3.1\DealsObserver.Data.deps.json
+C:\Users\Danil.Novikov MoneyV\source\repos\SE_TestExercise\DealsObserver.Data\bin\Debug\netcoreapp3.1\DealsObserver.Data.runtimeconfig.json
+C:\Users\Danil.Novikov MoneyV\source\repos\SE_TestExercise\DealsObserver.Data\bin\Debug\netcoreapp3.1\DealsObserver.Data.runtimeconfig.dev.json
+C:\Users\Danil.Novikov MoneyV\source\repos\SE_TestExercise\DealsObserver.Data\bin\Debug\netcoreapp3.1\DealsObserver.Data.dll
+C:\Users\Danil.Novikov MoneyV\source\repos\SE_TestExercise\DealsObserver.Data\bin\Debug\netcoreapp3.1\DealsObserver.Data.pdb
+C:\Users\Danil.Novikov MoneyV\source\repos\SE_TestExercise\DealsObserver.Data\obj\Debug\netcoreapp3.1\DealsObserver.Data.csproj.AssemblyReference.cache
+C:\Users\Danil.Novikov MoneyV\source\repos\SE_TestExercise\DealsObserver.Data\obj\Debug\netcoreapp3.1\DealsObserver.Data.AssemblyInfoInputs.cache
+C:\Users\Danil.Novikov MoneyV\source\repos\SE_TestExercise\DealsObserver.Data\obj\Debug\netcoreapp3.1\DealsObserver.Data.AssemblyInfo.cs
+C:\Users\Danil.Novikov MoneyV\source\repos\SE_TestExercise\DealsObserver.Data\obj\Debug\netcoreapp3.1\DealsObserver.Data.csproj.CoreCompileInputs.cache
+C:\Users\Danil.Novikov MoneyV\source\repos\SE_TestExercise\DealsObserver.Data\obj\Debug\netcoreapp3.1\DealsObserver.Data.dll
+C:\Users\Danil.Novikov MoneyV\source\repos\SE_TestExercise\DealsObserver.Data\obj\Debug\netcoreapp3.1\DealsObserver.Data.pdb
+C:\Users\Danil.Novikov MoneyV\source\repos\SE_TestExercise\DealsObserver.Data\obj\Debug\netcoreapp3.1\DealsObserver.Data.genruntimeconfig.cache
