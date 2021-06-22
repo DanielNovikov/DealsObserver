@@ -20,7 +20,13 @@ namespace DealsObserver.Domain.Concrete
                 .Split(LineSplitters)
                 .Skip(1)
                 .Where(x => !string.IsNullOrEmpty(x))
-                .Select(x => Regex.Split(x, PropertiesSplitRegex));
+                .Select(x =>
+                {
+                    return Regex
+                        .Split(x, PropertiesSplitRegex)
+                        .Select(x => x.Trim())
+                        .ToArray();
+                });
 
             return dealsProperties
                 .Select(x => new Deal

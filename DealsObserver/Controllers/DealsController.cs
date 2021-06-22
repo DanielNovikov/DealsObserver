@@ -25,9 +25,14 @@ namespace DealsObserver.Controllers
         }
 
         [HttpGet("GetTheMostPopularVehicle")]
-        public Task<TheMostPopularVachicleDto> GetTheMostPopularVehicle()
+        public async Task<IActionResult> GetTheMostPopularVehicle()
         {
-            return _dealsService.GetTheMostPopularVehicle();
+            var vehicle = await _dealsService.GetTheMostPopularVehicle();
+
+            if (vehicle == null)
+                return NotFound();
+
+            return Ok(vehicle);
         }
 
         [HttpPost("UploadCsv")]

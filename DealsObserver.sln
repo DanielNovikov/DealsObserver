@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DealsObserver", "DealsObser
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DealsObserver.Data", "DealsObserver.Data\DealsObserver.Data.csproj", "{A6BDF682-2F0C-43D9-9A7B-FE2B98A87663}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DealsObserver.Domain", "DealsObserver.Domain\DealsObserver.Domain.csproj", "{65E82AF5-A5F4-4268-84D2-9EFD1E9B323B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DealsObserver.Domain", "DealsObserver.Domain\DealsObserver.Domain.csproj", "{65E82AF5-A5F4-4268-84D2-9EFD1E9B323B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DealsObserver.Tests", "DealsObserver.Tests\DealsObserver.Tests.csproj", "{C10C0362-21E7-4CD7-BCBD-D06D09E3E9CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{65E82AF5-A5F4-4268-84D2-9EFD1E9B323B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65E82AF5-A5F4-4268-84D2-9EFD1E9B323B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65E82AF5-A5F4-4268-84D2-9EFD1E9B323B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C10C0362-21E7-4CD7-BCBD-D06D09E3E9CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C10C0362-21E7-4CD7-BCBD-D06D09E3E9CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C10C0362-21E7-4CD7-BCBD-D06D09E3E9CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C10C0362-21E7-4CD7-BCBD-D06D09E3E9CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
